@@ -1,4 +1,6 @@
 package com.galhardone.galhardone.repositories;
+import com.galhardone.galhardone.entities.Categoria;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CategoriaRepository {
+public interface CategoriaRepository extends JpaRepository<Categoria, Long> {
 }
