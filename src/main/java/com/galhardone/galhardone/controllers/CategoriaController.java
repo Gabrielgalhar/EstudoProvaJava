@@ -15,7 +15,7 @@ import java.util.List;
 public class CategoriaController {
     @Autowired
     private CategoriaService productService;
-    
+
     @PostMapping
     public Categoria create(@RequestBody Categoria categoria) {
         return CategoriaService.create(new Produto());
